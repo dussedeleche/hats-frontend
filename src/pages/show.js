@@ -61,7 +61,7 @@ function Show(props) {
 
   return (
     <div className="Hats">
-      { person ? loaded() : loading() }
+      { hat ? loaded() : loading() }
       <form onSubmit={handleSubmit}>
         <input
           type="text"
