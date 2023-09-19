@@ -20,7 +20,7 @@ function Index(props) {
   // handle submit function for form
   const handleSubmit = (event) => {
     event.preventDefault();
-    props.createHats(newForm);
+    props.createHat(newForm);
     setNewForm({
       name: '',
       image: '',
